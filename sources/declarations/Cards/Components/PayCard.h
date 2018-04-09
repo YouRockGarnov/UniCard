@@ -13,4 +13,9 @@ private:
     auto count;
 };
 
+template<typename t_user_id, typename t_currency>
+void PayCard::pay_to(t_user_id user_id, t_currency count) {
+    //sending money
+}
+
 

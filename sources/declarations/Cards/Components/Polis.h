@@ -3,7 +3,7 @@
 class Polis : public Component{
 public:
     template <typename t_number, typename t_organization>
-    Polis(t_number n, t_organization org);
+    Polis(t_number n, t_organization org) : number(n), organization(org){}
 
     auto get_organization();
 
