@@ -1,4 +1,4 @@
-#include "tests/gtest.h"
+#include "sources/tests/ComponentsTest.h"
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
